@@ -1,0 +1,75 @@
+body{
+    background-color: burlywood;  
+}
+.cs{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(126, 106, 86);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.main{
+    display: flex;
+    width: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+.main2{
+    width: 500px;
+    height: 250px;
+    margin: auto; 
+    position: relative;
+    background-image: url(./coffee-culture-illustration-powerpoint-background_e224109f77__960_540.avif);
+}
+.main2:hover{
+    display: block;
+    background-color: rgb(231, 145, 24); 
+}
+.h3{
+text-align: center;
+font-size: 20px;
+position: absolute;
+text-transform: capitalize;
+
+}
+.h3:hover{
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+    opacity: .5;
+}
+
+.Rprice{
+    margin-left: 20px;
+    bottom: -150px;
+    left: -10px;
+    position: absolute;   
+}
+.Rprice :hover{   
+    margin-left: 20px;
+    position: absolute;   
+}
+.price{
+    margin-left: 20px;
+    bottom: -200px;
+    left: -10px;
+    position: absolute;
+}
+.price:hover{
+    margin-left: 20px;
+    position: absolute;
+}
+.main2 img{
+    width: 240px;
+    height: 300px;   
+}
+.main2:hover img{  
+    width: 0;
+    height: 0;
+    position: absolute; 
+}
+
+
